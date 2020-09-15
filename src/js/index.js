@@ -1,3 +1,5 @@
-import test from "./modules/components/ball.js"
+import {GoodBall, BadBall, ExtraBall} from "./modules/components/Ball/index.js"
 
-customElements.define('test-el', test)
+customElements.define('good-ball', GoodBall)
+customElements.define('bad-ball', BadBall)
+customElements.define('extra-ball', ExtraBall)
